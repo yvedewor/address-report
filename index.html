@@ -32,7 +32,7 @@
       }
       section > h2 {
         padding: 8px;
-        background: #f8feff;
+        background: #e4e4e4;
         border-radius: 4px;
         margin-bottom: 8px;
         font-weight: 500;
@@ -48,6 +48,7 @@
       }
       h1 {
         font-size: 20px;
+        margin-top: 24px;
       }
       h2 {
         font-size: 1rem;
@@ -63,7 +64,7 @@
         color: #667085;
       }
       .info span {
-        color: #333333; 
+        color: #333333;
       }
       .personal-details {
         display: flex;
@@ -82,8 +83,8 @@
       <!-- Youverify Logo -->
       <div>
         <svg
-          width="110"
-          height="36"
+          width="142"
+          height="57"
           viewBox="0 0 142 52"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +165,7 @@
       </div>
     </section>
     <section>
-      <h2>Personal Information</h2>
+      <h2>Candidate Information</h2>
       <div class="personal-details">
         <div>
           <img
@@ -180,6 +181,40 @@
         </div>
       </div>
     </section>
+
+    <!-- This is only for Guarantor's verification -->
+    <section>
+      <h2>Guarantor's Information</h2>
+      <div class="personal-details">
+        <div>
+          <img
+            width="100px"
+            src="https://e7.pngegg.com/pngimages/84/165/png-clipart-united-states-avatar-organization-information-user-avatar-service-computer-wallpaper-thumbnail.png"
+            alt="profile image"
+          />
+        </div>
+        <div>
+          <div class="info">First Name: <span>Sharon</span></div>
+          <div class="info">Last Name: <span>Chigorom</span></div>
+          <div class="info">Phone Number: <span>08112345678</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- This is only for business verification -->
+    <section>
+      <h2>Business Information</h2>
+      <div class="details">
+        <div class="info">Name: <span>Dent Reality</span></div>
+        <div class="info">RC No: <span>RC3002398</span></div>
+        <div class="info">Email: <span>admin@dentreality.co</span></div>
+      </div>
+      <div class="details">
+        <div class="info">Phone Number: <span>08129493920</span></div>
+        <div class="info">Address: <span>24, David la calle, Buenos Aires, Argentina</span></div>
+      </div>
+    </section>
+
     <section>
       <h2>Address Details</h2>
       <div class="details">
@@ -193,8 +228,9 @@
         <div class="info">Country: <span>Nigeria</span></div>
       </div>
       <div class="details">
-        <div class="info">Longitude: <span>6.6117869</span></div>
-        <div class="info">Latitude: <span>3.3763206</span></div>
+        <div class="info">
+          GPS Coordinates: <span>6.6117869, 3.3114869</span>
+        </div>
       </div>
     </section>
     <section>
@@ -243,5 +279,15 @@
         </div>
       </div>
     </section>
+
+    <div>
+      <!-- Data here is hard coded -->
+      <p>
+        Verification ID 63C9F2A3A9693 was generated for this Address by
+        Youverify OS as at January 20, 2023 9:06am Do note that this only
+        confirms that the candidate resides at the location at the time of
+        verification. For any questions, contact support@youverify.co
+      </p>
+    </div>
   </body>
 </html>
