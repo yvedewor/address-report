@@ -54,11 +54,10 @@
         font-size: 1rem;
       }
       .details {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
         margin-bottom: 10px;
-      }
-      .details > div {
-        width: 33%;
       }
       .info {
         color: #667085;
@@ -178,40 +177,8 @@
           <div class="info">First Name: <span>Uyoyou</span></div>
           <div class="info">Last Name: <span>Edewor</span></div>
           <div class="info">Phone Number: <span>08112345678</span></div>
+          <div class="info">Email: <span>edewor@youverify.co</span></div>
         </div>
-      </div>
-    </section>
-
-    <!-- This is only for Guarantor's verification -->
-    <section>
-      <h2>Guarantor's Information</h2>
-      <div class="personal-details">
-        <div>
-          <img
-            width="100px"
-            src="https://e7.pngegg.com/pngimages/84/165/png-clipart-united-states-avatar-organization-information-user-avatar-service-computer-wallpaper-thumbnail.png"
-            alt="profile image"
-          />
-        </div>
-        <div>
-          <div class="info">First Name: <span>Sharon</span></div>
-          <div class="info">Last Name: <span>Chigorom</span></div>
-          <div class="info">Phone Number: <span>08112345678</span></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- This is only for business verification -->
-    <section>
-      <h2>Business Information</h2>
-      <div class="details">
-        <div class="info">Name: <span>Dent Reality</span></div>
-        <div class="info">RC No: <span>RC3002398</span></div>
-        <div class="info">Email: <span>admin@dentreality.co</span></div>
-      </div>
-      <div class="details">
-        <div class="info">Phone Number: <span>08129493920</span></div>
-        <div class="info">Address: <span>24, David la calle, Buenos Aires, Argentina</span></div>
       </div>
     </section>
 
@@ -282,7 +249,7 @@
 
     <div>
       <!-- Data here is hard coded -->
-      <p>
+      <p style="font-size: 14px">
         Verification ID 63C9F2A3A9693 was generated for this Address by
         Youverify OS as at January 20, 2023 9:06am Do note that this only
         confirms that the candidate resides at the location at the time of
